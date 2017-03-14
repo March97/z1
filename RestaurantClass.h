@@ -17,4 +17,5 @@ public:
     Restaurant(string="brak", string="brak", string="brak", unsigned int=0, unsigned int=0, float=0);
     ~Restaurant();
     void show();
+    void load();
 };

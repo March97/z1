@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     Restaurant r1("Smaki Donalda", "Marchewka", "Fast Food");
+    r1.load();
     r1.show();
     return 0;
 }
