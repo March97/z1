@@ -16,4 +16,5 @@ private:
 public:
     Restaurant(string, string, string);
     ~Restaurant();
+    void show();
 };
